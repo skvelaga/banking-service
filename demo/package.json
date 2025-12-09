@@ -1,0 +1,23 @@
+{
+  "name": "banking-service-demo",
+  "version": "1.0.0",
+  "description": "Demo client for banking service API",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "dev": "nodemon client.js"
+  },
+  "keywords": [
+    "banking",
+    "demo",
+    "api-client"
+  ],
+  "author": "Invisible Technologies",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
